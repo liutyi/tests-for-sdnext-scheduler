@@ -1,0 +1,14 @@
+# ---- GLOBAL SETTINGS — preserved from original scheduler export ----
+STEPS=50
+CFG=4
+AG=-1
+WIDTH=1024
+HEIGHT=1024
+SAMPLER="Default"
+SEED=-1
+MODEL="Diffusers/baidu/ERNIE-Image [5346b31d68]"
+GUIDANCENAME="Auto" # Auto Zero PAG TCFG
+GUIDANCESCALE=4
+MODEL_COMPANY="Baidu"
+MODEL_LABEL="ERNIE Image"
+MODEL_PARAMS="8B"
