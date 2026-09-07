@@ -1,0 +1,15 @@
+# ---- GLOBAL SETTINGS — preserved from original scheduler export ----
+STEPS=50
+CFG=5
+AG=-1
+WIDTH=1024
+HEIGHT=1024
+SAMPLER="Default"
+SEED=20260906
+MODEL="Diffusers/inclusionAI/LLaDA-Image [e4e2703f41]"
+GUIDANCENAME="Auto" # Auto Zero PAG TCFG
+GUIDANCESCALE=5
+MODEL_COMPANY="Ant Group"
+MODEL_LABEL="LLaDA Image"
+MODEL_PARAMS="7B"
+MODEL_SIZE="49.3GB"
