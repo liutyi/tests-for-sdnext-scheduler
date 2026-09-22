@@ -1,0 +1,14 @@
+# ---- GLOBAL SETTINGS — preserved from original scheduler export ----
+STEPS=40
+CFG=4
+AG=4
+WIDTH=2048
+HEIGHT=2048
+SAMPLER="Default"
+SEED=20260921
+MODEL="Diffusers/Qwen/Qwen-Image-2.1 [790c926335]"
+GUIDANCENAME="TCFG" # Auto Zero PAG TCFG
+GUIDANCESCALE=4
+MODEL_COMPANY="Alibaba"
+MODEL_LABEL="Qwen Image 2.1"
+MODEL_PARAMS="7B"
