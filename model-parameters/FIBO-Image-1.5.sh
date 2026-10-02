@@ -1,0 +1,14 @@
+# ---- GLOBAL SETTINGS — preserved from original scheduler export ----
+STEPS=6
+CFG=1
+AG=-1
+WIDTH=1024
+HEIGHT=1024
+SAMPLER="Default"
+SEED=20261002
+MODEL="Diffusers/briaai/Fibo-1.5 [b91cef5364]"
+GUIDANCENAME="Auto" # Auto Zero PAG TCFG
+GUIDANCESCALE=1
+MODEL_COMPANY="Briaai"
+MODEL_LABEL="FIBO 1.5"
+MODEL_PARAMS="8B"
