@@ -142,6 +142,6 @@ source "$SERVER_DIR/$SERVER.sh"
 source "$MODEL_DIR/$MODEL.sh"
 set +a
 
-sed -i 's/local prompt="\$2"/local prompt="StrangeDaal. $2 <lora:Strange Reverie - Krea2_000002500:1.1>"/' $TEST_PATH
+sed -i 's/local prompt="\$2"/local prompt="StrangeDaal. $2 <lora:Strange Reverie - Krea2_000002500-bf16:1.0>"/' $TEST_PATH
 exec bash "$TEST_PATH"
-sed -i 's/local prompt="StrangeDaal\. \$2 <lora:Strange Reverie - Krea2_000002500:1\.1>"/local prompt="$2"/' $TEST_PATH
+sed -i 's/local prompt="StrangeDaal\. \$2 <lora:Strange Reverie - Krea2_000002500-bf16:1.0>"/local prompt="$2"/' $TEST_PATH
