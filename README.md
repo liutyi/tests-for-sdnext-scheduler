@@ -4,6 +4,10 @@ Automating scripts to schedule test images generation
 ## Example of script use
 
 ```
+oliutyi@server7:~/tests-for-sdnext-scheduler$ ./run-test.sh server7 Qwen-Image-2.1 art46 qwen21-pruna-8step-lora
+oliutyi@server7:~/tests-for-sdnext-scheduler$ ./run-test.sh --server server7 --model Qwen-Image-2.1 --test art46 --lora krea2-strange-reverie
+oliutyi@server7:~/tests-for-sdnext-scheduler$ ./run-test.sh server7 Qwen-Image-2.1 art46        # no lora, prompts untouched
+
 oliutyi@server7:~/tests-for-sdnext-scheduler$ ./run-test.sh server6 ERNIE-Image-Turbo couture-gpt2
 ▶ server: server6
 ▶ model:  ERNIE-Image-Turbo
