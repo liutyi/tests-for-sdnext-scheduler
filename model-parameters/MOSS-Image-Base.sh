@@ -1,0 +1,17 @@
+# ---- GLOBAL SETTINGS — preserved from original scheduler export ----
+STEPS=50
+CFG=3
+AG=0
+WIDTH=1024
+HEIGHT=1024
+#SAMPLER="DPM2++ 2S FlowMatch"
+#SAMPLER="ER-SDE FlowMatch"
+#SAMPLER="LCM FlowMatch"
+SAMPLER="Default"
+SEED=20261018
+MODEL="Diffusers/SD-Next/MOSS-Image-Base [632d2d2335]"
+GUIDANCENAME="Auto" # Auto Zero PAG TCFG
+GUIDANCESCALE=3
+MODEL_COMPANY="OpenMOSS Team"
+MODEL_LABEL="MOSS Image Base"
+MODEL_PARAMS="5B"
