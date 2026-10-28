@@ -7,6 +7,7 @@ HEIGHT=1024
 #SAMPLER="DPM2++ 2S FlowMatch"
 #SAMPLER="ER-SDE FlowMatch"
 #SAMPLER="LCM FlowMatch"
+#SAMPLER="UniPC FlowMatch"
 SAMPLER="Default"
 SEED=20261018
 MODEL="Diffusers/SD-Next/MOSS-Image-Base [632d2d2335]"
